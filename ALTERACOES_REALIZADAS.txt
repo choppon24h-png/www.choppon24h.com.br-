@@ -1,0 +1,215 @@
+═══════════════════════════════════════════════════════════════
+  SITE CHOPP ON - RESUMO DAS ALTERAÇÕES REALIZADAS
+═══════════════════════════════════════════════════════════════
+
+📅 Data: 01/12/2024
+🎯 Objetivo: Adicionar formulário de franquia e atualizar Instagram
+
+───────────────────────────────────────────────────────────────
+1. ALTERAÇÕES NO SITE PRINCIPAL (index.html)
+───────────────────────────────────────────────────────────────
+
+✅ Instagram atualizado:
+   - ANTES: @choppon24h
+   - DEPOIS: @choppon24h.oficial
+   - Locais alterados: Seção Social, Footer
+
+✅ Seção "Seja um Franqueado":
+   - ANTES: Apenas botão "Falar com o consultor agora"
+   - DEPOIS: 
+     • Botão "Preencher Formulário" (principal)
+     • Botão "Falar com o Consultor" (secundário)
+
+───────────────────────────────────────────────────────────────
+2. NOVOS ARQUIVOS CRIADOS
+───────────────────────────────────────────────────────────────
+
+📄 franquia-form.html
+   → Formulário completo de cadastro de franqueados
+   → Design responsivo com Bootstrap 5
+   → Validação de campos obrigatórios
+   → Mensagem de sucesso após envio
+
+📄 process-franchise.php
+   → Processa dados do formulário
+   → Salva em arquivo JSON
+   → Envia e-mail para choppon24h.com.br
+   → Retorna confirmação em JSON
+
+📄 franchise_data.json
+   → Armazena todos os cadastros
+   → Formato JSON estruturado
+   → Protegido via .htaccess
+
+📄 admin/painel-franquias.html
+   → Painel administrativo SEM SENHA
+   → Visualização completa dos cadastros
+   → Filtros por estado, capital, nome
+   → Estatísticas em tempo real
+   → Atualização automática (30s)
+
+📄 admin/get-franchise-data.php
+   → API para retornar dados ao painel
+   → Lê arquivo JSON e retorna para o frontend
+
+📄 .htaccess
+   → Proteção do arquivo JSON
+   → Configurações de segurança
+   → Cache de arquivos estáticos
+   → Compressão habilitada
+
+📄 README.md
+   → Documentação técnica completa
+   → Instruções de instalação
+   → Solução de problemas
+
+───────────────────────────────────────────────────────────────
+3. PERGUNTAS DO FORMULÁRIO
+───────────────────────────────────────────────────────────────
+
+📋 DADOS PESSOAIS:
+   • Nome completo
+   • E-mail
+   • Telefone/WhatsApp
+   • Idade
+   • CPF
+   • Cidade e Estado onde mora
+
+💼 PERFIL PROFISSIONAL:
+   • Breve resumo do perfil
+   • Experiências profissionais anteriores
+   • Formação acadêmica
+
+🏢 EXPERIÊNCIA EM NEGÓCIOS:
+   • Por que optou pelo mercado de bebidas?
+   • Já teve experiência no mercado de bebidas?
+   • Se sim, descreva a experiência
+   • Já foi franqueado de outras marcas?
+   • Se sim, quais franquias?
+   • Possui outras empresas atualmente?
+   • Se sim, liste nome e CNPJ de cada empresa
+
+📍 INTERESSE NA FRANQUIA:
+   • Cidade de interesse para a franquia
+   • Estado de interesse
+   • Bairro ou região de interesse
+   • Tipo de local pretendido (shopping, supermercado, etc.)
+   • Já possui ponto comercial?
+   • Se sim, detalhes do ponto
+
+💰 CAPACIDADE DE INVESTIMENTO:
+   • Faixa de capital disponível
+   • Prazo desejado para implantação
+   • Dedicação ao negócio (integral, parcial, investidor)
+
+📝 INFORMAÇÕES ADICIONAIS:
+   • Como conheceu a Chopp ON?
+   • Quais são suas expectativas com a franquia?
+   • Observações ou perguntas adicionais
+   • Aceite de LGPD (obrigatório)
+
+───────────────────────────────────────────────────────────────
+4. FUNCIONALIDADES DO PAINEL ADMIN
+───────────────────────────────────────────────────────────────
+
+📊 ESTATÍSTICAS:
+   • Total de cadastros
+   • Cadastros hoje
+   • Cadastros esta semana
+   • Cadastros este mês
+
+🔍 FILTROS:
+   • Por estado de interesse
+   • Por faixa de capital
+   • Por nome (busca)
+   • Ordenação (recente, antigo, A-Z)
+
+👁️ VISUALIZAÇÃO:
+   • Todos os dados do cadastro
+   • Layout organizado por categorias
+   • Cards expansíveis
+   • Responsivo para mobile
+
+🔄 ATUALIZAÇÃO:
+   • Automática a cada 30 segundos
+   • Sem necessidade de recarregar página
+
+───────────────────────────────────────────────────────────────
+5. SEGURANÇA IMPLEMENTADA
+───────────────────────────────────────────────────────────────
+
+🔐 Proteções:
+   ✓ Arquivo JSON protegido via .htaccess
+   ✓ Validação de dados no frontend
+   ✓ Sanitização de dados no backend
+   ✓ Aceite de LGPD obrigatório
+   ✓ Headers de segurança configurados
+   ✓ Proteção contra acesso direto a arquivos sensíveis
+
+───────────────────────────────────────────────────────────────
+6. LINKS IMPORTANTES
+───────────────────────────────────────────────────────────────
+
+🌐 Site Principal:
+   https://www.choppon24h.com.br
+
+📝 Formulário de Franquia:
+   https://www.choppon24h.com.br/franquia-form.html
+
+⚙️ Painel Administrativo:
+   https://www.choppon24h.com.br/admin/painel-franquias.html
+
+📱 Instagram Atualizado:
+   https://www.instagram.com/choppon24h.oficial
+
+───────────────────────────────────────────────────────────────
+7. INSTRUÇÕES DE INSTALAÇÃO
+───────────────────────────────────────────────────────────────
+
+1. Faça backup do site atual
+2. Conecte via FTP ao HostGator
+3. Navegue até /public_html/
+4. Faça upload de todos os arquivos
+5. Configure permissões:
+   - franchise_data.json → 666
+   - process-franchise.php → 644
+   - admin/ → 755
+6. Edite process-franchise.php e configure o e-mail
+7. Teste o formulário e o painel admin
+
+───────────────────────────────────────────────────────────────
+8. CONFIGURAÇÕES NECESSÁRIAS
+───────────────────────────────────────────────────────────────
+
+⚙️ E-mail de Destino:
+   Editar em: process-franchise.php (linha 5)
+   Alterar: $email_to = 'SEU_EMAIL_AQUI';
+
+📁 Permissões de Arquivos:
+   franchise_data.json → 666 (leitura/escrita)
+   *.php → 644 (leitura/execução)
+   admin/ → 755 (diretório)
+
+───────────────────────────────────────────────────────────────
+9. COMPATIBILIDADE
+───────────────────────────────────────────────────────────────
+
+✅ Servidor: HostGator (cPanel)
+✅ PHP: 7.0 ou superior
+✅ Navegadores: Chrome, Firefox, Safari, Edge
+✅ Dispositivos: Desktop, Tablet, Mobile
+✅ Bootstrap: 5.3.3
+✅ Leaflet Maps: 1.9.4
+
+───────────────────────────────────────────────────────────────
+10. SUPORTE E MANUTENÇÃO
+───────────────────────────────────────────────────────────────
+
+📧 E-mails são enviados automaticamente para cada cadastro
+💾 Backup do arquivo franchise_data.json é recomendado semanalmente
+🔄 O painel atualiza automaticamente, não requer manutenção
+📊 Todos os dados ficam armazenados no servidor
+
+═══════════════════════════════════════════════════════════════
+  FIM DO RESUMO
+═══════════════════════════════════════════════════════════════

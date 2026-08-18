@@ -1,0 +1,947 @@
+[
+    {
+        "timestamp": "2025-12-01 11:37:26",
+        "dados_pessoais": {
+            "nome": "André Soares e Silva",
+            "email": "asoaresbh@gmail.com",
+            "telefone": "11991748555",
+            "idade": "34",
+            "cpf": "08921646620",
+            "cidade": "belo horizonte",
+            "estado": "MG"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "asaa",
+            "experiencias_anteriores": "asasa",
+            "formacao": "asassa"
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "asasas",
+            "experiencia_bebidas": "sim",
+            "detalhes_bebidas": "asasa",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "nao",
+            "lista_empresas": ""
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "belo horizonte",
+            "estado_interesse": "MG",
+            "bairro_interesse": "asss",
+            "tipo_local": "loja_rua",
+            "ja_possui_ponto": "nao",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "acima_300k",
+            "prazo_implantacao": "6_12_meses",
+            "dedicacao": "parcial"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "instagram",
+            "expectativas": "asasas",
+            "observacoes": "asas"
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2025-12-02 13:44:20",
+        "dados_pessoais": {
+            "nome": "Andreza Eduarda",
+            "email": "andrezaeduarda24@gmail.com",
+            "telefone": "31995052440",
+            "idade": "25",
+            "cpf": "00000000000",
+            "cidade": "Sete Lagoas ",
+            "estado": "MG"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Empresária ",
+            "experiencias_anteriores": "Ramos diversificados ",
+            "formacao": "Empresária "
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Diversificação ",
+            "experiencia_bebidas": "sim",
+            "detalhes_bebidas": "Casa de show, uma experiência surpreendente. ",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "sim",
+            "lista_empresas": ""
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Sete Lagoas ",
+            "estado_interesse": "MG",
+            "bairro_interesse": "Verificando ",
+            "tipo_local": "outro",
+            "ja_possui_ponto": "negociando",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "acima_300k",
+            "prazo_implantacao": "3_6_meses",
+            "dedicacao": "investidor"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "visitou_unidade",
+            "expectativas": "Boas ",
+            "observacoes": ""
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2025-12-03 11:12:04",
+        "dados_pessoais": {
+            "nome": "Allan Rabelo",
+            "email": "allan.rabelo@novaerasilicon.com.br",
+            "telefone": "31988194295",
+            "idade": "44",
+            "cpf": "05119465625",
+            "cidade": "Belo Horizonte",
+            "estado": "MG"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Sou contador em uma indústria multinacional. busco um investimento que me possibilite retorno com menor dedicação de tempo.",
+            "experiencias_anteriores": "nenhuma de negocio próprio. invisto no mercado de ações.",
+            "formacao": "Graduado em ciências contábeis e pós graduado em controladoria e auditoria"
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Não tenho experiencia nesse mercado. busco mais informações para analisar a possibilidade de ingressar nesse tipo de investimento.",
+            "experiencia_bebidas": "nao",
+            "detalhes_bebidas": "",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "nao",
+            "lista_empresas": ""
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Belo Horizonte",
+            "estado_interesse": "MG",
+            "bairro_interesse": "Santa Monica",
+            "tipo_local": "loja_rua",
+            "ja_possui_ponto": "nao",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "ate_50k",
+            "prazo_implantacao": "6_12_meses",
+            "dedicacao": "parcial"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "visitou_unidade",
+            "expectativas": "ainda em analise.",
+            "observacoes": ""
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2025-12-30 13:56:49",
+        "dados_pessoais": {
+            "nome": "Elias Lemos Sodre ",
+            "email": "dereksodrebr@gmail.com",
+            "telefone": "31997719996",
+            "idade": "32",
+            "cpf": "12671180675",
+            "cidade": "Sete Lagoas",
+            "estado": "MG"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Sou uma pessoa proativa, gosto de desafios, empreender em novas tendências de mercado. Garçom, barman, atendente, sempre estive em contato com o cliente e sempre busquei oferecer boas experiências.",
+            "experiencias_anteriores": "Barman, garçom, atendente, designer gráfico, operador de produção.",
+            "formacao": "Cursando Superior"
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Gosto da área de bebidas, sou barman, garçom, sempre trabalhei com bares e casas noturnas.",
+            "experiencia_bebidas": "nao",
+            "detalhes_bebidas": "",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "nao",
+            "lista_empresas": ""
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Pedro Leopoldo ",
+            "estado_interesse": "MG",
+            "bairro_interesse": "Centro ",
+            "tipo_local": "loja_rua",
+            "ja_possui_ponto": "nao",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "ate_50k",
+            "prazo_implantacao": "1_3_meses",
+            "dedicacao": "integral"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "visitou_unidade",
+            "expectativas": "Ser uma inovação no comércio local da cidade e ter uma fonte de renda lucrativa.",
+            "observacoes": ""
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-01-11 19:08:16",
+        "dados_pessoais": {
+            "nome": "Felippe Luiz Costa",
+            "email": "felippelcosta@gmail.com",
+            "telefone": "11985787917",
+            "idade": "39",
+            "cpf": "35325210831",
+            "cidade": "Sao Paulo",
+            "estado": "SP"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Atuando a mais de 15 anos em multinacionais focado em gestão de pós venda em mercados de todos países da América atualmente como responsável pela gestão de todos assistentes técnicos da América da maior empresa de bombas hidráulicas do mundo.",
+            "experiencias_anteriores": "Atuei em duas grande empresas multinacionais uma do ramo químico a maior do mundo e hoje atuo na maior indústria de bombas hidráulicas do mundo ",
+            "formacao": "Administrador"
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Um mercado com potencial gigante para expansão e com consumidores de diversos perfis, com a máquina de vocês é possível abordar todos esses perfis dentro de condomínios e em e eventos grandes.",
+            "experiencia_bebidas": "nao",
+            "detalhes_bebidas": "",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "nao",
+            "lista_empresas": ""
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "São Paulo ",
+            "estado_interesse": "SP",
+            "bairro_interesse": "Zona sul ",
+            "tipo_local": "outro",
+            "ja_possui_ponto": "nao",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "ate_50k",
+            "prazo_implantacao": "1_3_meses",
+            "dedicacao": "parcial"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "google",
+            "expectativas": "Ter meu próprio negócio e depender totalmente dele para minha renda com foco em ampliar dentro da região ",
+            "observacoes": ""
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-01-15 20:08:54",
+        "dados_pessoais": {
+            "nome": "Marlos Prado da Silva ",
+            "email": "marlosprado@hotmail.com",
+            "telefone": "75991317288",
+            "idade": "44",
+            "cpf": "784.862.625-34",
+            "cidade": "Feira de Santana ",
+            "estado": "BA"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Petroleiro e empreendedor",
+            "experiencias_anteriores": "Ja tive uma franquia da Ambev, sou socio de uma clinica médica e sou investidor ",
+            "formacao": "Bacharel em Ciências da Computação- UFBA"
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Ja tive experiência com outra franquia e gosto do mercado",
+            "experiencia_bebidas": "sim",
+            "detalhes_bebidas": "franquia PIT STOP da Ambev",
+            "experiencia_franquia": "sim",
+            "detalhes_franquia": "Ambev",
+            "possui_empresas": "nao",
+            "lista_empresas": ""
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Feira de Santana",
+            "estado_interesse": "BA",
+            "bairro_interesse": "Centro",
+            "tipo_local": "shopping",
+            "ja_possui_ponto": "negociando",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "50k_100k",
+            "prazo_implantacao": "imediato",
+            "dedicacao": "investidor"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "google",
+            "expectativas": "Pretendo ter um retorno financeiro",
+            "observacoes": ""
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-01-26 14:32:07",
+        "dados_pessoais": {
+            "nome": "Carlos Augusto Campos Pareja J",
+            "email": "Mariabetina18@gmail.com",
+            "telefone": "22998835900",
+            "idade": "40",
+            "cpf": "104.525.477-09",
+            "cidade": "Armação dos Búzios",
+            "estado": "RJ"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Sou formado em contabilidade, tenho uma Motopeças a 10 anos.\r\nEstou buscando investir em algo diferente.",
+            "experiencias_anteriores": "Fui gerente da Tacoe vendedor em algumas lojas e roupas.",
+            "formacao": "Contador "
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Vi potencial",
+            "experiencia_bebidas": "nao",
+            "detalhes_bebidas": "",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "sim",
+            "lista_empresas": "Shopping das Motos\r\n23352447000125"
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Armação dos Búzios",
+            "estado_interesse": "RJ",
+            "bairro_interesse": "13",
+            "tipo_local": "loja_rua",
+            "ja_possui_ponto": "negociando",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "50k_100k",
+            "prazo_implantacao": "1_3_meses",
+            "dedicacao": "integral"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "google",
+            "expectativas": "De fazer boa parceria.",
+            "observacoes": ""
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-02-04 11:02:21",
+        "dados_pessoais": {
+            "nome": "Carlos Alberto dos Santos",
+            "email": "grupo.appy@gmail.com",
+            "telefone": "11940590180",
+            "idade": "38",
+            "cpf": "369.613.678-60",
+            "cidade": "Embu das Artes",
+            "estado": "SP"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Profissionalmente falando acredito eu que eu sou um cara que sempre tá buscando coisas novas inovação sempre querendo estar por dentro do mercado profissional principalmente da área empresarial né comercial e sou muito arrojado muito empolgado também com as coisas principalmente com coisas novas e adoro conhecimento.",
+            "experiencias_anteriores": "Comerciante atuo em alguns segmentos como pet shop, restaurante, adegas, estética automotiva, espaço para festas, ",
+            "formacao": "2⁰ grau "
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Embora eu não beba não seja fã de bebida alcoólica é um segmento que tem um alto potencial de vendas um segmento que cresce ano a ano que nunca vai deixar de existir e que independente das crises ele sempre vai se manter em pé.",
+            "experiencia_bebidas": "sim",
+            "detalhes_bebidas": "Minha experiência no mercado de bebidas é com adegas né então trabalho com uma operação simples e quero simplificar a mais ainda né espero com a operação de vocês a minha situação com bebidas é compra e venda então compra o Atacadão e revendo nos estabelecimentos.",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "sim",
+            "lista_empresas": ""
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Taboão da Serra",
+            "estado_interesse": "SP",
+            "bairro_interesse": "Pirajussara ",
+            "tipo_local": "loja_rua",
+            "ja_possui_ponto": "sim",
+            "detalhes_ponto": "8 metros quadrados "
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "50k_100k",
+            "prazo_implantacao": "1_3_meses",
+            "dedicacao": "parcial"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "google",
+            "expectativas": "As expectativas são uma operação limpa Clara sem funcionários uma operação completamente autônoma numa operação simples de compra e venda de produto",
+            "observacoes": ""
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-02-04 11:09:21",
+        "dados_pessoais": {
+            "nome": "Valdir Andrade Viana",
+            "email": "VA.VIANA@OUTLOOK.COM",
+            "telefone": "11988367631",
+            "idade": "36",
+            "cpf": "37009714860",
+            "cidade": "Itapecerica da Serra",
+            "estado": "SP"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Fui advogado por 15 anos e estou procurando investimentos para transicionar a carreira.",
+            "experiencias_anteriores": "Todas jurídicas.",
+            "formacao": "Direito"
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Gostei da ideia. Todavia, ainda estou pesquisando áreas para investir.",
+            "experiencia_bebidas": "nao",
+            "detalhes_bebidas": "",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "nao",
+            "lista_empresas": ""
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Embu das Artes",
+            "estado_interesse": "SP",
+            "bairro_interesse": "Centro",
+            "tipo_local": "outro",
+            "ja_possui_ponto": "nao",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "50k_100k",
+            "prazo_implantacao": "3_6_meses",
+            "dedicacao": "parcial"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "outro",
+            "expectativas": "Obter um negócio com capacidade de escala, todavia, com pouca necessidade de mão de obra.",
+            "observacoes": ""
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-02-05 18:50:35",
+        "dados_pessoais": {
+            "nome": "Fernanda Abrão da Silva ",
+            "email": "nanda_abrao@hotmail.com",
+            "telefone": "34988582326",
+            "idade": "43",
+            "cpf": "050.587.726-04",
+            "cidade": "Sete Lagoas ",
+            "estado": "MG"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Formada em Educação Física \r\nTrabalhei por mais de 15 anos na área \r\nComo Personal trainer \r\nParei em 2024 pois me tornei mãe e mudamos de cidade devido ao trabalho do meu marido. ",
+            "experiencias_anteriores": "Antes de graduar em educação física, trabalhei como secretária e depois de formada Personal trainer,  academia e condomínios. ",
+            "formacao": "Educação Física "
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Como tive que sair da minha área devido a gestação e mudança.  \r\nEstou pensando em investir em algo próprio.",
+            "experiencia_bebidas": "nao",
+            "detalhes_bebidas": "",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "nao",
+            "lista_empresas": ""
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Uberaba ",
+            "estado_interesse": "MG",
+            "bairro_interesse": "Sao Benedito ou Santa Maria",
+            "tipo_local": "galeria",
+            "ja_possui_ponto": "nao",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "ate_50k",
+            "prazo_implantacao": "6_12_meses",
+            "dedicacao": "parcial"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "outro",
+            "expectativas": "Ter um negócio próprio, de forma que possa Administrar e ter um estabilidade financeira. ",
+            "observacoes": ""
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-03-18 11:46:42",
+        "dados_pessoais": {
+            "nome": "LAIS TEIXEIRA BARBOSA",
+            "email": "laisteixeiraa281@gmail.com",
+            "telefone": "31995748084",
+            "idade": "25",
+            "cpf": "70181189640",
+            "cidade": "Sete Lagoas",
+            "estado": "MG"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Sou Técnica em Segurança do Trabalho e estou cursando Administração.",
+            "experiencias_anteriores": "Fui op. de máquina no setor de qualidade em uma fábrica têxtil e atualmente sou TST em uma mineração.",
+            "formacao": "Técnica em Seg. do Trabalho e cursando ADM"
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Gosto do ramo de bebidas.",
+            "experiencia_bebidas": "nao",
+            "detalhes_bebidas": "",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "nao",
+            "lista_empresas": ""
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Sete Lagoas",
+            "estado_interesse": "MG",
+            "bairro_interesse": "Nova Cidade",
+            "tipo_local": "loja_rua",
+            "ja_possui_ponto": "sim",
+            "detalhes_ponto": "Av. José Sérvulo Soalheiro"
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "ate_50k",
+            "prazo_implantacao": "3_6_meses",
+            "dedicacao": "integral"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "visitou_unidade",
+            "expectativas": "Obter uma fonte de renda que eu consiga conciliar com meus estudos",
+            "observacoes": "A quantidade e os tipos de bebidas são definidos por vocês ou por mim?"
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-03-25 00:51:24",
+        "dados_pessoais": {
+            "nome": "Francisco Carlos",
+            "email": "fcjaboline@gmail.com",
+            "telefone": "31984923406",
+            "idade": "65",
+            "cpf": "402.633.126-15",
+            "cidade": "Jaboticatubas",
+            "estado": "MG"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Administrador a 33 anos ",
+            "experiencias_anteriores": "Gerente",
+            "formacao": "Administracao "
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Facilidade",
+            "experiencia_bebidas": "nao",
+            "detalhes_bebidas": "",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "nao",
+            "lista_empresas": ""
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Santa Luzia",
+            "estado_interesse": "MG",
+            "bairro_interesse": "Centro",
+            "tipo_local": "loja_rua",
+            "ja_possui_ponto": "sim",
+            "detalhes_ponto": "Esquina"
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "ate_50k",
+            "prazo_implantacao": "1_3_meses",
+            "dedicacao": "investidor"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "instagram",
+            "expectativas": "Baixo custo",
+            "observacoes": "Nenhuma"
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-05-19 17:23:25",
+        "dados_pessoais": {
+            "nome": "Moisés Rosa",
+            "email": "moisescah1@gmail.com",
+            "telefone": "12988120772",
+            "idade": "38",
+            "cpf": "35946815806",
+            "cidade": "São José dos Campos",
+            "estado": "SP"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Sou formado em administração, dono de uma barbearia e barbeiro e dono de uma barbeiro de lavanderia.",
+            "experiencias_anteriores": "Trabalhei como metalúrgico",
+            "formacao": "Administração "
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Porque é um dos mercados que mais vende",
+            "experiencia_bebidas": "nao",
+            "detalhes_bebidas": "",
+            "experiencia_franquia": "sim",
+            "detalhes_franquia": "Lavateria",
+            "possui_empresas": "sim",
+            "lista_empresas": "Moisés Retrô Barber Shop\r\n25893014\/0001-02"
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "São José dos Campos",
+            "estado_interesse": "SP",
+            "bairro_interesse": "Próximo a Vila Industrial",
+            "tipo_local": "loja_rua",
+            "ja_possui_ponto": "negociando",
+            "detalhes_ponto": "Numa rua movimentada"
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "ate_50k",
+            "prazo_implantacao": "6_12_meses",
+            "dedicacao": "parcial"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "visitou_unidade",
+            "expectativas": "Como se trata de um negócio vendável, eu vejo um potencial imenso para a minha cidade",
+            "observacoes": ""
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-05-23 16:28:30",
+        "dados_pessoais": {
+            "nome": "Anaflavia Vitoria",
+            "email": "anaflaviamirandavitoria@gmail.com",
+            "telefone": "31993274946",
+            "idade": "34",
+            "cpf": "11209831694",
+            "cidade": "SETE LAGOAS",
+            "estado": "MG"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Empresa de produção de alimentos ",
+            "experiencias_anteriores": "Comercial",
+            "formacao": "Ensino médio "
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Oportunidade de investimento ",
+            "experiencia_bebidas": "sim",
+            "detalhes_bebidas": "",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "nao",
+            "lista_empresas": ""
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Guarapari ",
+            "estado_interesse": "ES",
+            "bairro_interesse": "Guarapari,praia do morro",
+            "tipo_local": "loja_rua",
+            "ja_possui_ponto": "nao",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "50k_100k",
+            "prazo_implantacao": "3_6_meses",
+            "dedicacao": "integral"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "visitou_unidade",
+            "expectativas": "Bom ramo de negócios,com bom retorno lucrativo ",
+            "observacoes": ""
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-06-12 15:44:48",
+        "dados_pessoais": {
+            "nome": "Bruno Benicio da Silva Santos ",
+            "email": "brunobenicioadm@gmail.com",
+            "telefone": "31971474290",
+            "idade": "39",
+            "cpf": "01542841658",
+            "cidade": "Contagem",
+            "estado": "MG"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Profissional com 15 anos de experiência em vendas no ramo alimentício de BH e região e bom relacionamento interpessoal. ",
+            "experiencias_anteriores": "Atendimento em Redes supermerdistas e atacadistas ",
+            "formacao": "Graduacão em gestão comercial e Pós-Graduação graduação em gestão de negócios. "
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Pelo potencial de mercado e flexibilidade em horários ",
+            "experiencia_bebidas": "nao",
+            "detalhes_bebidas": "",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "nao",
+            "lista_empresas": ""
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Contagem, Betim e Belo Horizonte ",
+            "estado_interesse": "MG",
+            "bairro_interesse": "Contagem, Betim e zona noroeste de BH ",
+            "tipo_local": "outro",
+            "ja_possui_ponto": "nao",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "ate_50k",
+            "prazo_implantacao": "1_3_meses",
+            "dedicacao": "parcial"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "google",
+            "expectativas": "Atuar em um negócio próprio, lucrativo e com potencial de crescimento.",
+            "observacoes": "Busco uma franquia confiável com potencial de crescimento."
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-07-09 16:16:09",
+        "dados_pessoais": {
+            "nome": "Débora Marques Monteiro",
+            "email": "marmont.solucoes@gmail.com",
+            "telefone": "48992183961",
+            "idade": "33",
+            "cpf": "105.653.946-14",
+            "cidade": "Laguna",
+            "estado": "SC"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Sou graduada em Administração e atuo de forma autônoma com foco em inteligência financeira para terceiros. Possuo uma trajetória  de cerca de 10 anos na área comercial e de suprimentos do varejo (com foco no setor de supermercados de alto giro) e, atualmente, lidero meu próprio empreendimento de prestação de serviços. Estou buscando um investimento através de modelos de negócios franqueado.",
+            "experiencias_anteriores": " área comercial e de suprimentos do varejo, gestão financeira",
+            "formacao": "Administração de empresas"
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Na realidade busco por negócios com escalabilidade fácil, mais autônomos, independente de ser bebidas ou não.",
+            "experiencia_bebidas": "nao",
+            "detalhes_bebidas": "",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "sim",
+            "lista_empresas": "65.086.921\/0001-64"
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Laguna",
+            "estado_interesse": "SC",
+            "bairro_interesse": "Ainda em estudo",
+            "tipo_local": "supermercado",
+            "ja_possui_ponto": "nao",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "50k_100k",
+            "prazo_implantacao": "3_6_meses",
+            "dedicacao": "parcial"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "google",
+            "expectativas": "No momento minhas expectativas se resumem em conhecer melhor o modelo de negócio para entender se conseguirei gerir ou não, não possuo expectativas antes de analisar melhor o negócio.",
+            "observacoes": "Nenhuma."
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-07-15 12:34:22",
+        "dados_pessoais": {
+            "nome": "Clistiano Fernandes",
+            "email": "clistiano@gmail.com",
+            "telefone": "(67) 99868-7257",
+            "idade": "50",
+            "cpf": "772.479.811-72",
+            "cidade": "Campo Grande",
+            "estado": "MS"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Servidor Público ",
+            "experiencias_anteriores": "Servidor Público e Privado ",
+            "formacao": "Adm"
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Giro rapido",
+            "experiencia_bebidas": "nao",
+            "detalhes_bebidas": "",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "nao",
+            "lista_empresas": ""
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Jardim",
+            "estado_interesse": "MS",
+            "bairro_interesse": "Centro",
+            "tipo_local": "loja_rua",
+            "ja_possui_ponto": "nao",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "ate_50k",
+            "prazo_implantacao": "3_6_meses",
+            "dedicacao": "parcial"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "google",
+            "expectativas": "Ganhar dinheiro ",
+            "observacoes": ""
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-07-29 18:27:17",
+        "dados_pessoais": {
+            "nome": "Silvia Godoy de Melo Mambrini",
+            "email": "silviagodoymelo@gmail.com",
+            "telefone": "31997843881",
+            "idade": "38",
+            "cpf": "08931541643",
+            "cidade": "Pedro Leopoldo ",
+            "estado": "MG"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Sou Engenheira de Produção Civil com MBA em Finanças. Trabalhei com gestão empresarial por 10 anos e atualmente tenho a minha empresa de delivery de chopp em Pedro Leopoldo.",
+            "experiencias_anteriores": "Coordenadora de Gestão Empresarial em empresa de aviação executiva ",
+            "formacao": "MBA em Finanças; Engenharia de Produção Civil"
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Por acreditar ser uma área com potencial e pouco explorada na cidade onde resido",
+            "experiencia_bebidas": "sim",
+            "detalhes_bebidas": "Delivery de chopp",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "sim",
+            "lista_empresas": "Ô Chopp\r\n57.625.892\/0001-33"
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Pedro Leopoldo ",
+            "estado_interesse": "MG",
+            "bairro_interesse": "Centro",
+            "tipo_local": "loja_rua",
+            "ja_possui_ponto": "nao",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "50k_100k",
+            "prazo_implantacao": "3_6_meses",
+            "dedicacao": "parcial"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "visitou_unidade",
+            "expectativas": "Explorar o mercado na cidade ",
+            "observacoes": ""
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-08-07 23:08:38",
+        "dados_pessoais": {
+            "nome": "Leandro Silva Fortes ",
+            "email": "leandrodphb@gmail.com",
+            "telefone": "86988220340",
+            "idade": "43",
+            "cpf": "00057237360",
+            "cidade": "Parnaiba ",
+            "estado": "PI"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Contador é administrador ",
+            "experiencias_anteriores": "Empresário contábil ",
+            "formacao": "Contabilidade e Administração "
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Investimento. ",
+            "experiencia_bebidas": "nao",
+            "detalhes_bebidas": "",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "sim",
+            "lista_empresas": "25112025000108"
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Parnaíba",
+            "estado_interesse": "PI",
+            "bairro_interesse": "PI",
+            "tipo_local": "aeroporto",
+            "ja_possui_ponto": "nao",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "50k_100k",
+            "prazo_implantacao": "6_12_meses",
+            "dedicacao": "investidor"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "google",
+            "expectativas": "Retorno do investimento ",
+            "observacoes": ""
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-08-11 13:52:05",
+        "dados_pessoais": {
+            "nome": "Marcos Porfirio",
+            "email": "marcosporfirio@hotmail.com",
+            "telefone": "48999112233",
+            "idade": "62",
+            "cpf": "80848150910",
+            "cidade": "Florianópolis",
+            "estado": "SC"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Empresário e empreendedor no ramo de food service",
+            "experiencias_anteriores": "importação, comercialização de produtos alimentícios e bebidas",
+            "formacao": "marketing"
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Por que é uma necessidade no meu segmento ",
+            "experiencia_bebidas": "sim",
+            "detalhes_bebidas": "Fui distribuidor da 3 Corações no segmento food service",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "nao",
+            "lista_empresas": ""
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "Florianópolis",
+            "estado_interesse": "SC",
+            "bairro_interesse": "Cidade",
+            "tipo_local": "outro",
+            "ja_possui_ponto": "sim",
+            "detalhes_ponto": "Condomínios residenciais"
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "100k_200k",
+            "prazo_implantacao": "imediato",
+            "dedicacao": "investidor"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "google",
+            "expectativas": "Que ofereça um negócio rentável ",
+            "observacoes": ""
+        },
+        "aceite_lgpd": "sim"
+    },
+    {
+        "timestamp": "2026-08-11 14:56:46",
+        "dados_pessoais": {
+            "nome": "Eduardo Barbosa de Morais Júnior",
+            "email": "eduardobmj@gmail.com",
+            "telefone": "32991760290",
+            "idade": "36",
+            "cpf": "10391202618",
+            "cidade": "São Luis",
+            "estado": "MA"
+        },
+        "perfil_profissional": {
+            "resumo_perfil": "Sou professor, mestre em historia e atuo como empresario no ramo de turismo em MG e de GLP em Sao Luis\/MA. Tenho interesse em diversificar meus negocios e aproveitar parcerias que possuo em condominios de apartamentos com areas de lazer na cidade de São Luis.",
+            "experiencias_anteriores": "Professor, CLT, empresario.",
+            "formacao": "Mestrado em História"
+        },
+        "experiencia_negocios": {
+            "motivo_bebidas": "Vontade de diversificar negocios e aproveitar oportunidade de faturamento.",
+            "experiencia_bebidas": "nao",
+            "detalhes_bebidas": "",
+            "experiencia_franquia": "nao",
+            "detalhes_franquia": "",
+            "possui_empresas": "sim",
+            "lista_empresas": "50767998000122 \r\n20157244000190"
+        },
+        "interesse_franquia": {
+            "cidade_interesse": "São Luis",
+            "estado_interesse": "MA",
+            "bairro_interesse": "Turu, Maioba, Ipem Turu, Aracagy.",
+            "tipo_local": "outro",
+            "ja_possui_ponto": "nao",
+            "detalhes_ponto": ""
+        },
+        "capacidade_investimento": {
+            "capital_disponivel": "ate_50k",
+            "prazo_implantacao": "1_3_meses",
+            "dedicacao": "parcial"
+        },
+        "informacoes_adicionais": {
+            "como_conheceu": "instagram",
+            "expectativas": "Alcancar o maximo de rentabilidade com menor tempo e gastos.",
+            "observacoes": "Não para o momento"
+        },
+        "aceite_lgpd": "sim"
+    }
+]

@@ -1,0 +1,10 @@
+# Credenciais e configuracoes locais
+caixa/config.php
+admin/.ftpquota
+.env
+.env.*
+*.log
+error_log
+# Temporarios do servidor
+.DS_Store
+Thumbs.db

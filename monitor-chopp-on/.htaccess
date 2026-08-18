@@ -1,0 +1,6 @@
+Options -Indexes
+AddType application/vnd.android.package-archive .apk
+<FilesMatch "^APK01\.apk$">
+  ForceType application/vnd.android.package-archive
+  Header set Content-Disposition "attachment; filename=APK01.apk"
+</FilesMatch>
