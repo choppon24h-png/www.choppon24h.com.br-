@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /franquia/obrigado
+
+Sitemap: https://www.choppon24h.com.br/sitemap.xml

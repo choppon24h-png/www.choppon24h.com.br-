@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://www.choppon24h.com.br/chopp/sitemap.xml
-
-# CHOPP ON Delivery - Jaboticatubas, Serra da Cipó e Baldim MG
-
