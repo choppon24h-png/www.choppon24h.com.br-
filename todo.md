@@ -30,4 +30,4 @@
 - [x] Criar painel visual do aplicativo com consumo, pontos por consumação, ranking e unidades, sem dados ou transações reais.
 - [x] Atualizar metadados, sitemap e responsividade da nova rota de aplicativo do cliente.
 - [x] Separar dependências de interface em chunks de produção para reduzir o pacote principal sinalizado no build.
-- [ ] Criar e enviar ao repositório remoto confirmado o commit da atualização do aplicativo do cliente.
+- [x] Criar e enviar ao repositório remoto confirmado o commit da atualização do aplicativo do cliente.
