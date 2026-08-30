@@ -33,6 +33,6 @@
 - [x] Criar e enviar ao repositório remoto confirmado o commit da atualização do aplicativo do cliente.
 - [x] Diagnosticar e corrigir o erro 403 retornado pelo domínio choppon24h.com.br após a tentativa de publicação.
 - [ ] Mover os arquivos de configuração remanescentes da raiz pública da HostGator para a pasta privada do projeto.
-- [ ] Confirmar e atualizar a branch remota do redesign para clonagem no GitHub Desktop.
-- [ ] Sincronizar a documentação de recuperação da hospedagem e o checklist atualizado na branch remota do redesign.
-- [ ] Confirmar o hash remoto final e informar a referência de clonagem no GitHub Desktop.
+- [x] Confirmar e atualizar a branch remota do redesign para clonagem no GitHub Desktop.
+- [x] Sincronizar a documentação de recuperação da hospedagem e o checklist atualizado na branch remota do redesign.
+- [x] Confirmar o hash remoto final e informar a referência de clonagem no GitHub Desktop.
