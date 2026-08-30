@@ -1,0 +1,38 @@
+# Project TODO
+
+- [x] Definir a arquitetura pública com rotas distintas para instituição, franquia, delivery e confirmação de cadastro.
+- [x] Aplicar a identidade visual Chopp ON com logo fornecida, paleta grafite/preto e laranja, tipografia forte e responsividade mobile-first.
+- [x] Criar cabeçalho, navegação e CTAs que encaminhem cada público para a jornada correta.
+- [x] Construir a página institucional com visão da marca, diferenciais, unidades e chamadas para franquia e delivery.
+- [x] Construir a landing de franquia com modelos SMART CHOPP, etapas de implantação, diferenciais e prova de confiança sem conteúdo fictício.
+- [x] Construir a landing de delivery com produtos, volumes, calculadora de barris, área atendida, FAQ visível e CTA para WhatsApp.
+- [x] Criar formulário curto de interesse em franquia com consentimento LGPD, validação cliente/servidor, persistência protegida e tela de confirmação.
+- [x] Implementar acesso administrativo autenticado para consulta de leads, sem expor instaladores, JSONs, painéis ou dados operacionais publicamente.
+- [x] Adicionar estrutura de eventos para clique em WhatsApp, início e sucesso de cadastro, pronta para GA4, Google Ads e Meta Pixel.
+- [x] Configurar metadados por rota, canonical, Open Graph, Twitter Cards, dados estruturados coerentes, robots.txt e sitemap com URLs públicas relevantes.
+- [x] Otimizar imagens, dimensões, lazy loading, CSS, landmarks, contraste, labels e navegação por teclado.
+- [x] Documentar redirecionamentos HTTPS/www, URLs legadas e checklist de publicação para o domínio atual.
+- [x] Escrever e executar testes Vitest para regras de validação e fluxo de captura de leads.
+- [x] Validar as telas desktop e mobile, checar erros de build e preparar a versão final para publicação.
+- [x] Adicionar à home uma seção de unidades e presença operacional com informações já divulgadas pela marca.
+- [x] Reforçar a landing de franquia com sinais institucionais reais de confiança, sem criar avaliações ou depoimentos fictícios.
+- [x] Exibir volumes de barris de forma explícita na landing de delivery com CTA de consulta.
+- [x] Bloquear ou redirecionar, no novo servidor, URLs legadas e sensíveis conhecidas antes da implantação no domínio atual.
+- [x] Ampliar a assinatura visual da logo na navegação e no rodapé, preservando a leitura dos CTAs e do conteúdo.
+- [x] Criar uma rota independente de Área do Franqueado, apresentada como experiência institucional sem funcionalidade operacional ativa.
+- [x] Criar seção de aplicativo do franqueado com botões distintos para Android e Apple, marcados como disponibilidade futura.
+- [x] Criar tópicos independentes de gestão de franquia, controle remoto e operação conectada.
+- [x] Representar alertas de barril acabando em smartwatch como recurso visual da operação conectada.
+- [x] Mensurar a intenção de download do aplicativo e validar as novas rotas em desktop e mobile.
+- [x] Corrigir o contraste do botão Apple e tornar a comunicação de disponibilidade futura mais direta na Área do Franqueado.
+- [x] Reposicionar os downloads do aplicativo como experiência exclusiva do cliente na Home, removendo-os da Área do Franqueado.
+- [x] Adicionar item de navegação Aplicativo e rota pública dedicada ao aplicativo do cliente.
+- [x] Criar painel visual do aplicativo com consumo, pontos por consumação, ranking e unidades, sem dados ou transações reais.
+- [x] Atualizar metadados, sitemap e responsividade da nova rota de aplicativo do cliente.
+- [x] Separar dependências de interface em chunks de produção para reduzir o pacote principal sinalizado no build.
+- [x] Criar e enviar ao repositório remoto confirmado o commit da atualização do aplicativo do cliente.
+- [x] Diagnosticar e corrigir o erro 403 retornado pelo domínio choppon24h.com.br após a tentativa de publicação.
+- [ ] Mover os arquivos de configuração remanescentes da raiz pública da HostGator para a pasta privada do projeto.
+- [x] Confirmar e atualizar a branch remota do redesign para clonagem no GitHub Desktop.
+- [x] Sincronizar a documentação de recuperação da hospedagem e o checklist atualizado na branch remota do redesign.
+- [x] Confirmar o hash remoto final e informar a referência de clonagem no GitHub Desktop.
