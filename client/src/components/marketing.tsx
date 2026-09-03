@@ -4,7 +4,8 @@ import { Link, useLocation } from "wouter";
 import { ArrowUpRight, Instagram, Menu, MessageCircle, X } from "lucide-react";
 import { trackConversion } from "@/lib/tracking";
 
-export const LOGO_URL = "/manus-storage/chopp-on-logo_ee1c339e.png";
+const isStaticHost = import.meta.env.VITE_STATIC_HOST === "true";
+export const LOGO_URL = isStaticHost ? "/assets/chopp-on-logo.png" : "/manus-storage/chopp-on-logo_ee1c339e.png";
 export const WHATSAPP_URL = "https://wa.me/5511991748555?text=Olá!%20Quero%20falar%20com%20a%20Chopp%20ON.";
 
 export function BrandLogo({ compact = false }: { compact?: boolean }) {
@@ -85,7 +86,7 @@ export function SiteFooter() {
         </div>
         <div>
           <p className="font-display text-lg font-bold uppercase tracking-wide text-white">Navegue</p>
-          <div className="mt-4 flex flex-col gap-2 text-sm text-white/60"><Link href="/franquia" className="hover:text-[#ff7a00]">Franquias</Link><Link href="/delivery" className="hover:text-[#ff7a00]">Chopp delivery</Link><Link href="/aplicativo" className="hover:text-[#ff7a00]">Aplicativo</Link><Link href="/franqueado" className="hover:text-[#ff7a00]">Área do franqueado</Link><Link href="/admin" className="hover:text-[#ff7a00]">Área restrita</Link></div>
+          <div className="mt-4 flex flex-col gap-2 text-sm text-white/60"><Link href="/franquia" className="hover:text-[#ff7a00]">Franquias</Link><Link href="/delivery" className="hover:text-[#ff7a00]">Chopp delivery</Link><Link href="/aplicativo" className="hover:text-[#ff7a00]">Aplicativo</Link><Link href="/franqueado" className="hover:text-[#ff7a00]">Área do franqueado</Link>{!isStaticHost && <Link href="/admin" className="hover:text-[#ff7a00]">Área restrita</Link>}</div>
         </div>
         <div>
           <p className="font-display text-lg font-bold uppercase tracking-wide text-white">Contato</p>

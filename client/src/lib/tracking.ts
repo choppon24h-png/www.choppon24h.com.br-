@@ -1,4 +1,4 @@
-export type ConversionEvent = "whatsapp_click" | "form_start" | "form_submit_success" | "app_download_intent";
+export type ConversionEvent = "whatsapp_click" | "form_start" | "form_submit_success" | "app_download_intent" | "franchise_static_whatsapp";
 
 declare global {
   interface Window {
@@ -17,5 +17,6 @@ export function trackConversion(event: ConversionEvent, properties: Record<strin
   window.gtag?.("event", event, properties);
 
   if (event === "form_submit_success") window.fbq?.("track", "Lead", properties);
+  if (event === "franchise_static_whatsapp") window.fbq?.("trackCustom", "FranchiseStaticWhatsApp", properties);
   if (event === "whatsapp_click") window.fbq?.("trackCustom", "WhatsAppClick", properties);
 }

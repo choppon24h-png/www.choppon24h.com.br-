@@ -5,6 +5,8 @@ import { trpc } from "@/lib/trpc";
 import { trackConversion } from "@/lib/tracking";
 
 const initial = { fullName: "", email: "", phone: "", city: "", state: "MG", investmentRange: "100k-to-200k" as const, preferredModel: "smart-chopp" as const, message: "", consent: false, website: "" };
+const isStaticHost = import.meta.env.VITE_STATIC_HOST === "true";
+const franchiseWhatsApp = "5511991748555";
 
 const inputClass = "mt-2 w-full rounded-xl border border-white/15 bg-white/[.06] px-4 py-3 text-sm text-white outline-none transition focus:border-[#ff7a00] focus:ring-2 focus:ring-[#ff7a00]/20";
 
@@ -24,6 +26,12 @@ export function FranchiseLeadForm() {
   async function onSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!form.consent) return;
+    if (isStaticHost) {
+      const message = `Olá! Tenho interesse em uma franquia Chopp ON.\n\nNome: ${form.fullName}\nE-mail: ${form.email}\nWhatsApp: ${form.phone}\nCidade/UF: ${form.city}/${form.state}\nInvestimento: ${form.investmentRange}\nModelo: ${form.preferredModel}${form.message ? `\nMensagem: ${form.message}` : ""}`;
+      trackConversion("franchise_static_whatsapp", { preferred_model: form.preferredModel });
+      window.location.assign(`https://wa.me/${franchiseWhatsApp}?text=${encodeURIComponent(message)}`);
+      return;
+    }
     await submit.mutateAsync({ ...form, consent: true });
     trackConversion("form_submit_success", { form: "franchise_interest", preferred_model: form.preferredModel });
     setLocation("/franquia/obrigado");
@@ -44,8 +52,9 @@ export function FranchiseLeadForm() {
         <label className="sr-only" aria-hidden="true">Website<input tabIndex={-1} autoComplete="off" value={form.website} onChange={event => setForm({ ...form, website: event.target.value })} /></label>
       </div>
       <label className="mt-5 flex items-start gap-3 rounded-xl bg-white/[.035] p-3 text-xs leading-5 text-white/65"><input required type="checkbox" checked={form.consent} onChange={event => setForm({ ...form, consent: event.target.checked })} className="mt-1 size-4 accent-[#ff7a00]" /><span>Autorizo a Chopp ON a usar meus dados exclusivamente para responder ao meu interesse de franquia, conforme a política de privacidade aplicável.</span></label>
-      {submit.error && <p role="alert" className="mt-4 rounded-lg bg-red-500/15 px-4 py-3 text-sm text-red-200">{submit.error.message}</p>}
-      <button disabled={submit.isPending} className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[#ff7a00] px-5 py-4 text-sm font-extrabold text-[#151515] transition hover:bg-[#ff922d] disabled:cursor-not-allowed disabled:opacity-70 active:scale-[.98]">{submit.isPending ? <><LoaderCircle className="size-4 animate-spin" /> Enviando interesse</> : <><Check className="size-4" /> Enviar interesse</>}</button>
+      {isStaticHost && <p className="mt-4 rounded-lg bg-[#ff7a00]/10 px-4 py-3 text-sm text-[#ffd6ae]">Na versão atual do site, o envio continua no WhatsApp para preservar seus dados sem um servidor de formulários.</p>}
+      {!isStaticHost && submit.error && <p role="alert" className="mt-4 rounded-lg bg-red-500/15 px-4 py-3 text-sm text-red-200">{submit.error.message}</p>}
+      <button disabled={!isStaticHost && submit.isPending} className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[#ff7a00] px-5 py-4 text-sm font-extrabold text-[#151515] transition hover:bg-[#ff922d] disabled:cursor-not-allowed disabled:opacity-70 active:scale-[.98]">{!isStaticHost && submit.isPending ? <><LoaderCircle className="size-4 animate-spin" /> Enviando interesse</> : <><Check className="size-4" /> {isStaticHost ? "Continuar no WhatsApp" : "Enviar interesse"}</>}</button>
     </form>
   );
 }
