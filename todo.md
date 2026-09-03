@@ -32,7 +32,9 @@
 - [x] Separar dependências de interface em chunks de produção para reduzir o pacote principal sinalizado no build.
 - [x] Criar e enviar ao repositório remoto confirmado o commit da atualização do aplicativo do cliente.
 - [x] Diagnosticar e corrigir o erro 403 retornado pelo domínio choppon24h.com.br após a tentativa de publicação.
-- [ ] Mover os arquivos de configuração remanescentes da raiz pública da HostGator para a pasta privada do projeto.
+- [ ] Verificar no cPanel/HostGator o Document Root ativo e listar os arquivos ainda presentes na raiz pública.
+- [ ] Mover ou remover da raiz pública os arquivos de configuração remanescentes do projeto, preservando backup fora da área pública.
+- [ ] Validar por HTTP que arquivos de configuração como package.json, pnpm-lock.yaml e vite.config.ts retornam 403 ou 404.
 - [x] Verificar e sincronizar novamente a branch redesign-client-app com o servidor remoto indicado.
 - [x] Confirmar e atualizar a branch remota do redesign para clonagem no GitHub Desktop.
 - [x] Sincronizar a documentação de recuperação da hospedagem e o checklist atualizado na branch remota do redesign.
