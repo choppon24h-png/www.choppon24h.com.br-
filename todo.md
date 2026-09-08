@@ -58,3 +58,4 @@
 - [x] Mapear a seção atual de modelos na página pública de franquias e preservar conteúdos e CTAs relevantes.
 - [x] Implementar a seção MODELOS CHOPPON com quatro cards, faixa de conversão e comparação visual responsiva.
 - [x] Sincronizar o novo bloco de modelos e a validação na branch remota de redesign após a revisão final de SEO, CTAs e responsividade.
+- [x] Confirmar e consolidar no GitHub o commit da seção MODELOS CHOPPON para publicação manual, sem acessar a HostGator.
