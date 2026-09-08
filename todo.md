@@ -59,3 +59,7 @@
 - [x] Implementar a seção MODELOS CHOPPON com quatro cards, faixa de conversão e comparação visual responsiva.
 - [x] Sincronizar o novo bloco de modelos e a validação na branch remota de redesign após a revisão final de SEO, CTAs e responsividade.
 - [x] Confirmar e consolidar no GitHub o commit da seção MODELOS CHOPPON para publicação manual, sem acessar a HostGator.
+- [x] Reestruturar a seção A Marca da Home com narrativa institucional voltada a futuros franqueados.
+- [x] Aplicar linguagem juridicamente segura ao pedido de registro de marca no INPI, sem alegar concessão ou patente.
+- [x] Validar os CTAs, modelos de negócio, responsividade e renderização estática da seção A Marca.
+- [x] Publicar a atualização institucional na branch redesign-client-app e preparar a versão estática para FileZilla.
