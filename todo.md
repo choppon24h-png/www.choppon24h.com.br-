@@ -1,0 +1,65 @@
+# Project TODO
+
+- [x] Definir a arquitetura pública com rotas distintas para instituição, franquia, delivery e confirmação de cadastro.
+- [x] Aplicar a identidade visual Chopp ON com logo fornecida, paleta grafite/preto e laranja, tipografia forte e responsividade mobile-first.
+- [x] Criar cabeçalho, navegação e CTAs que encaminhem cada público para a jornada correta.
+- [x] Construir a página institucional com visão da marca, diferenciais, unidades e chamadas para franquia e delivery.
+- [x] Construir a landing de franquia com modelos SMART CHOPP, etapas de implantação, diferenciais e prova de confiança sem conteúdo fictício.
+- [x] Construir a landing de delivery com produtos, volumes, calculadora de barris, área atendida, FAQ visível e CTA para WhatsApp.
+- [x] Criar formulário curto de interesse em franquia com consentimento LGPD, validação cliente/servidor, persistência protegida e tela de confirmação.
+- [x] Implementar acesso administrativo autenticado para consulta de leads, sem expor instaladores, JSONs, painéis ou dados operacionais publicamente.
+- [x] Adicionar estrutura de eventos para clique em WhatsApp, início e sucesso de cadastro, pronta para GA4, Google Ads e Meta Pixel.
+- [x] Configurar metadados por rota, canonical, Open Graph, Twitter Cards, dados estruturados coerentes, robots.txt e sitemap com URLs públicas relevantes.
+- [x] Otimizar imagens, dimensões, lazy loading, CSS, landmarks, contraste, labels e navegação por teclado.
+- [x] Documentar redirecionamentos HTTPS/www, URLs legadas e checklist de publicação para o domínio atual.
+- [x] Escrever e executar testes Vitest para regras de validação e fluxo de captura de leads.
+- [x] Validar as telas desktop e mobile, checar erros de build e preparar a versão final para publicação.
+- [x] Adicionar à home uma seção de unidades e presença operacional com informações já divulgadas pela marca.
+- [x] Reforçar a landing de franquia com sinais institucionais reais de confiança, sem criar avaliações ou depoimentos fictícios.
+- [x] Exibir volumes de barris de forma explícita na landing de delivery com CTA de consulta.
+- [x] Bloquear ou redirecionar, no novo servidor, URLs legadas e sensíveis conhecidas antes da implantação no domínio atual.
+- [x] Ampliar a assinatura visual da logo na navegação e no rodapé, preservando a leitura dos CTAs e do conteúdo.
+- [x] Criar uma rota independente de Área do Franqueado, apresentada como experiência institucional sem funcionalidade operacional ativa.
+- [x] Criar seção de aplicativo do franqueado com botões distintos para Android e Apple, marcados como disponibilidade futura.
+- [x] Criar tópicos independentes de gestão de franquia, controle remoto e operação conectada.
+- [x] Representar alertas de barril acabando em smartwatch como recurso visual da operação conectada.
+- [x] Mensurar a intenção de download do aplicativo e validar as novas rotas em desktop e mobile.
+- [x] Corrigir o contraste do botão Apple e tornar a comunicação de disponibilidade futura mais direta na Área do Franqueado.
+- [x] Reposicionar os downloads do aplicativo como experiência exclusiva do cliente na Home, removendo-os da Área do Franqueado.
+- [x] Adicionar item de navegação Aplicativo e rota pública dedicada ao aplicativo do cliente.
+- [x] Criar painel visual do aplicativo com consumo, pontos por consumação, ranking e unidades, sem dados ou transações reais.
+- [x] Atualizar metadados, sitemap e responsividade da nova rota de aplicativo do cliente.
+- [x] Separar dependências de interface em chunks de produção para reduzir o pacote principal sinalizado no build.
+- [x] Criar e enviar ao repositório remoto confirmado o commit da atualização do aplicativo do cliente.
+- [x] Diagnosticar e corrigir o erro 403 retornado pelo domínio choppon24h.com.br após a tentativa de publicação.
+- [ ] Verificar no cPanel/HostGator o Document Root ativo e salvar uma listagem explícita dos arquivos presentes na raiz pública.
+- [ ] Mover ou remover comprovadamente da raiz pública todos os arquivos de configuração remanescentes, preservando backup fora da webroot.
+- [x] Validar por HTTP que arquivos de configuração como package.json, pnpm-lock.yaml e vite.config.ts retornam 403 ou 404.
+- [x] Verificar e sincronizar novamente a branch redesign-client-app com o servidor remoto indicado.
+- [x] Confirmar e atualizar a branch remota do redesign para clonagem no GitHub Desktop.
+- [x] Sincronizar a documentação de recuperação da hospedagem e o checklist atualizado na branch remota do redesign.
+- [x] Confirmar o hash remoto final e informar a referência de clonagem no GitHub Desktop.
+- [x] Gerar pacote estático do redesign compatível com a raiz pública da HostGator, sem código de servidor exposto.
+- [x] Documentar o procedimento de publicação e manutenção para impedir que o domínio volte a servir a pasta chopp legada.
+- [x] Sincronizar o gerador de pacote estático e o prompt de publicação na branch remota do redesign.
+- [x] Localizar a página estática de formulário de franquia no repositório publicado e preservar seu endpoint de recebimento.
+- [x] Criar formulário em abas com identificação pessoal, perfil de investidor, ponto comercial, condições de franquia e modelos Chopp ON.
+- [x] Implementar validação de campos obrigatórios, CPF, consentimento LGPD e mensagem de avaliação de compatibilidade comercial.
+- [x] Apresentar os quatro modelos de negócio e seus investimentos iniciais informados em uma etapa orientada do formulário.
+- [x] Validar no navegador o formulário em desktop e mobile, percorrendo as cinco etapas, a seleção de modelo e o envio sintético.
+- [x] Criar commit e enviar o novo formulário para a branch remota de revisão no GitHub.
+- [x] Confirmar na branch remota os arquivos franquia/franquia-form.html e franquia/process-franchise.php antes da entrega.
+- [x] Confirmar o hash remoto do formulário de qualificação e disponibilizar a referência de transferência para a hospedagem.
+- [x] Gerar um ZIP mínimo com franquia-form.html e process-franchise.php para atualização segura da pasta franquia no host.
+- [x] Integrar o formulário de qualificação na branch monitor-chopp-on-20260818 exibida no GitHub Desktop, sem alterar a main.
+- [x] Criar uma assinatura visual de logo Chopp ON para o cabeçalho do formulário de franquias.
+- [x] Aplicar a nova assinatura no formulário, validar sua leitura e sincronizar a atualização na branch monitor.
+- [x] Substituir a assinatura do formulário pela mesma logo usada no site público choppon24h.com.br e sincronizar a correção na branch monitor.
+- [x] Mapear a seção atual de modelos na página pública de franquias e preservar conteúdos e CTAs relevantes.
+- [x] Implementar a seção MODELOS CHOPPON com quatro cards, faixa de conversão e comparação visual responsiva.
+- [x] Sincronizar o novo bloco de modelos e a validação na branch remota de redesign após a revisão final de SEO, CTAs e responsividade.
+- [x] Confirmar e consolidar no GitHub o commit da seção MODELOS CHOPPON para publicação manual, sem acessar a HostGator.
+- [x] Reestruturar a seção A Marca da Home com narrativa institucional voltada a futuros franqueados.
+- [x] Aplicar linguagem juridicamente segura ao pedido de registro de marca no INPI, sem alegar concessão ou patente.
+- [x] Validar os CTAs, modelos de negócio, responsividade e renderização estática da seção A Marca.
+- [x] Publicar a atualização institucional na branch redesign-client-app e preparar a versão estática para FileZilla.
