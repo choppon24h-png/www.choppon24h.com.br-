@@ -62,3 +62,7 @@
 - [x] Implementar formulário de interesse comercial e simulador explicitamente ilustrativo, sem promessas de faturamento ou rentabilidade.
 - [x] Validar os CTAs, formulário, simulação, SEO e responsividade da nova landing de delivery.
 - [x] Publicar a nova landing de delivery na branch monitor-chopp-on-20260818.
+- [x] Reestruturar a seção A Marca da página inicial com apresentação institucional e comercial voltada a futuros franqueados.
+- [x] Aplicar a comunicação juridicamente segura do pedido de registro de marca no INPI, sem tratar marca como patente ou registro concedido.
+- [x] Validar os CTAs, os quatro modelos, a responsividade e a preservação da navegação da página inicial.
+- [x] Publicar a atualização da seção A Marca na branch monitor-chopp-on-20260818.
