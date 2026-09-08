@@ -57,4 +57,4 @@
 - [x] Substituir a assinatura do formulário pela mesma logo usada no site público choppon24h.com.br e sincronizar a correção na branch monitor.
 - [x] Mapear a seção atual de modelos na página pública de franquias e preservar conteúdos e CTAs relevantes.
 - [x] Implementar a seção MODELOS CHOPPON com quatro cards, faixa de conversão e comparação visual responsiva.
-- [ ] Sincronizar o novo bloco de modelos e a validação na branch monitor após a revisão final de SEO, CTAs e responsividade.
+- [x] Sincronizar o novo bloco de modelos e a validação na branch remota de redesign após a revisão final de SEO, CTAs e responsividade.
