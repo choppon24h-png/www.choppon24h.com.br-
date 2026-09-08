@@ -32,9 +32,9 @@
 - [x] Separar dependências de interface em chunks de produção para reduzir o pacote principal sinalizado no build.
 - [x] Criar e enviar ao repositório remoto confirmado o commit da atualização do aplicativo do cliente.
 - [x] Diagnosticar e corrigir o erro 403 retornado pelo domínio choppon24h.com.br após a tentativa de publicação.
-- [ ] Verificar no cPanel/HostGator o Document Root ativo e listar os arquivos ainda presentes na raiz pública.
-- [ ] Mover ou remover da raiz pública os arquivos de configuração remanescentes do projeto, preservando backup fora da área pública.
-- [ ] Validar por HTTP que arquivos de configuração como package.json, pnpm-lock.yaml e vite.config.ts retornam 403 ou 404.
+- [ ] Verificar no cPanel/HostGator o Document Root ativo e salvar uma listagem explícita dos arquivos presentes na raiz pública.
+- [ ] Mover ou remover comprovadamente da raiz pública todos os arquivos de configuração remanescentes, preservando backup fora da webroot.
+- [x] Validar por HTTP que arquivos de configuração como package.json, pnpm-lock.yaml e vite.config.ts retornam 403 ou 404.
 - [x] Verificar e sincronizar novamente a branch redesign-client-app com o servidor remoto indicado.
 - [x] Confirmar e atualizar a branch remota do redesign para clonagem no GitHub Desktop.
 - [x] Sincronizar a documentação de recuperação da hospedagem e o checklist atualizado na branch remota do redesign.
@@ -42,3 +42,19 @@
 - [x] Gerar pacote estático do redesign compatível com a raiz pública da HostGator, sem código de servidor exposto.
 - [x] Documentar o procedimento de publicação e manutenção para impedir que o domínio volte a servir a pasta chopp legada.
 - [x] Sincronizar o gerador de pacote estático e o prompt de publicação na branch remota do redesign.
+- [x] Localizar a página estática de formulário de franquia no repositório publicado e preservar seu endpoint de recebimento.
+- [x] Criar formulário em abas com identificação pessoal, perfil de investidor, ponto comercial, condições de franquia e modelos Chopp ON.
+- [x] Implementar validação de campos obrigatórios, CPF, consentimento LGPD e mensagem de avaliação de compatibilidade comercial.
+- [x] Apresentar os quatro modelos de negócio e seus investimentos iniciais informados em uma etapa orientada do formulário.
+- [x] Validar no navegador o formulário em desktop e mobile, percorrendo as cinco etapas, a seleção de modelo e o envio sintético.
+- [x] Criar commit e enviar o novo formulário para a branch remota de revisão no GitHub.
+- [x] Confirmar na branch remota os arquivos franquia/franquia-form.html e franquia/process-franchise.php antes da entrega.
+- [x] Confirmar o hash remoto do formulário de qualificação e disponibilizar a referência de transferência para a hospedagem.
+- [x] Gerar um ZIP mínimo com franquia-form.html e process-franchise.php para atualização segura da pasta franquia no host.
+- [x] Integrar o formulário de qualificação na branch monitor-chopp-on-20260818 exibida no GitHub Desktop, sem alterar a main.
+- [x] Criar uma assinatura visual de logo Chopp ON para o cabeçalho do formulário de franquias.
+- [x] Aplicar a nova assinatura no formulário, validar sua leitura e sincronizar a atualização na branch monitor.
+- [x] Substituir a assinatura do formulário pela mesma logo usada no site público choppon24h.com.br e sincronizar a correção na branch monitor.
+- [x] Mapear a seção atual de modelos na página pública de franquias e preservar conteúdos e CTAs relevantes.
+- [x] Implementar a seção MODELOS CHOPPON com quatro cards, faixa de conversão e comparação visual responsiva.
+- [ ] Sincronizar o novo bloco de modelos e a validação na branch monitor após a revisão final de SEO, CTAs e responsividade.

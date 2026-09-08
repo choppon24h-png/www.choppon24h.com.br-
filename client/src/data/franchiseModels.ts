@@ -1,0 +1,53 @@
+export const franchiseModels = [
+  {
+    id: "smart",
+    number: "01",
+    title: "CHOPPON SMART",
+    badge: "Cabine autônoma",
+    headline: "A choperia que se adapta ao seu ponto.",
+    description: "Cabine/estação de chope desenvolvida para diferentes ambientes e formatos de operação, combinando autoatendimento, tecnologia e gestão digital.",
+    idealFor: ["Condomínios", "Hotéis", "Restaurantes", "Clubes", "Eventos", "Empresas", "Áreas comerciais"],
+    highlights: ["Autônoma", "Gestão digital", "Autoatendimento", "Monitoramento remoto"],
+    cta: "Conhecer o Smart",
+  },
+  {
+    id: "compact",
+    number: "02",
+    title: "CHOPPON SMART COMPACT",
+    badge: "Compacta",
+    headline: "Compacta no espaço. Completa na operação.",
+    description: "Equipamento compacto e autônomo, desenvolvido para ambientes onde praticidade, controle e aproveitamento de espaço são fundamentais.",
+    idealFor: ["Condomínios", "Shopping centers", "Hotéis", "Áreas de lazer", "Empresas", "Locais controlados"],
+    highlights: ["24h", "Acesso digital", "Gestão remota", "Formato compacto"],
+    cta: "Conhecer o Smart Compact",
+  },
+  {
+    id: "station",
+    number: "03",
+    title: "CHOPPON STATION",
+    badge: "Ponto autônomo",
+    headline: "Seu ponto de chopp. Funcionando por você.",
+    description: "Um ponto autônomo de chope pensado para áreas externas, locais de circulação e oportunidades que pedem presença de marca, autonomia e operação conectada.",
+    idealFor: ["Áreas externas", "Postos de combustíveis", "Estacionamentos", "Praças", "Centros comerciais", "Eventos", "Áreas de convivência", "Pontos de grande circulação"],
+    highlights: ["Autônomo", "Conectado", "Pagamento digital", "Gestão remota"],
+    cta: "Conhecer o Station",
+  },
+  {
+    id: "delivery",
+    number: "04",
+    title: "CHOPPON DELIVERY",
+    badge: "Modelo delivery",
+    headline: "O ChoppOn chega até o cliente.",
+    description: "Modelo de negócio voltado para a entrega de chope, levando a experiência ChoppOn para residências, empresas, eventos e celebrações.",
+    idealFor: ["Residências", "Festas", "Eventos", "Empresas", "Confraternizações", "Eventos corporativos"],
+    highlights: ["Delivery", "Sob demanda", "Eventos", "Atendimento local"],
+    cta: "Conhecer o Delivery",
+  },
+] as const;
+
+export const franchiseModelComparison = [
+  ["SMART", "Para quem busca uma cabine/estação completa."],
+  ["SMART COMPACT", "Para quem precisa aproveitar melhor o espaço."],
+  ["STATION", "Para quem quer um ponto autônomo em áreas externas e de circulação."],
+  ["DELIVERY", "Para quem quer levar o chope até o cliente."],
+] as const;
