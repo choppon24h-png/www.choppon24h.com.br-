@@ -130,6 +130,12 @@
       const status = document.getElementById('formStatus');
       let current = 0;
 
+      const requestedModel = new URLSearchParams(window.location.search).get('modelo');
+      if (['station', 'smart', 'smart_compact', 'delivery'].includes(requestedModel)) {
+        const modelInput = form.querySelector(`input[name="modelo_interesse"][value="${requestedModel}"]`);
+        if (modelInput) modelInput.checked = true;
+      }
+
       document.getElementById('year').textContent = new Date().getFullYear();
       const cpf = document.getElementById('cpf');
       cpf.addEventListener('input', () => { const digits = cpf.value.replace(/\D/g, '').slice(0, 11); cpf.value = digits.replace(/(\d{3})(\d)/, '$1.$2').replace(/(\d{3})(\d)/, '$1.$2').replace(/(\d{3})(\d{1,2})$/, '$1-$2'); });
