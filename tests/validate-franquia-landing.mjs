@@ -25,6 +25,7 @@ for (const term of requiredLandingTerms) {
 for (const cta of requiredCtas) {
   if (!landing.includes(cta)) throw new Error(`CTA esperado ausente da landing: ${cta}`);
 }
+if (!landing.includes("https://wa.me/5511991748555")) throw new Error("CTA comercial oficial ausente da landing.");
 if (/R\$\s*\d/.test(landing)) throw new Error("A landing comercial não deve conter valores de investimento.");
 if (!landing.includes('rel="canonical" href="https://www.choppon24h.com.br/franquia/"')) throw new Error("Canonical da landing ausente.");
 if (!form.includes("new URLSearchParams(window.location.search).get('modelo')")) throw new Error("Formulário não reconhece CTA de modelo.");
