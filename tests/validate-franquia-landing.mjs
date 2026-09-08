@@ -28,5 +28,7 @@ for (const cta of requiredCtas) {
 if (!landing.includes("https://wa.me/5511991748555")) throw new Error("CTA comercial oficial ausente da landing.");
 if (/R\$\s*\d/.test(landing)) throw new Error("A landing comercial não deve conter valores de investimento.");
 if (!landing.includes('rel="canonical" href="https://www.choppon24h.com.br/franquia/"')) throw new Error("Canonical da landing ausente.");
+if (!landing.includes('family=Barlow+Condensed')) throw new Error("Fonte condensada legível ausente da landing.");
+if (!landing.includes('--display:"Barlow Condensed"')) throw new Error("Família tipográfica de destaque não foi aplicada.");
 if (!form.includes("new URLSearchParams(window.location.search).get('modelo')")) throw new Error("Formulário não reconhece CTA de modelo.");
 console.log("Landing de franquias validada: modelos, CTAs, canonical e ausência de valores financeiros.");

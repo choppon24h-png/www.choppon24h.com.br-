@@ -55,3 +55,6 @@
 - [x] Criar uma assinatura visual de logo Chopp ON para o cabeçalho do formulário de franquias.
 - [x] Aplicar a nova assinatura no formulário, validar sua leitura e sincronizar a atualização na branch monitor.
 - [x] Substituir a assinatura do formulário pela mesma logo usada no site público choppon24h.com.br e sincronizar a correção na branch monitor.
+- [x] Refinar a fonte dos títulos de destaque da landing de franquias para uma leitura mais nítida e menos pesada.
+- [x] Validar a nova tipografia em desktop e smartphone, preservando contraste, hierarquia e CTAs.
+- [x] Publicar o ajuste tipográfico na branch monitor-chopp-on-20260818.
