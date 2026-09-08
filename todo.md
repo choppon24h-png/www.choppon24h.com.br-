@@ -58,3 +58,7 @@
 - [x] Refinar a fonte dos títulos de destaque da landing de franquias para uma leitura mais nítida e menos pesada.
 - [x] Validar a nova tipografia em desktop e smartphone, preservando contraste, hierarquia e CTAs.
 - [x] Publicar o ajuste tipográfico na branch monitor-chopp-on-20260818.
+- [x] Reestruturar a rota estática /delivery/ como landing de oportunidade ChoppOn Delivery, preservando a identidade existente.
+- [x] Implementar formulário de interesse comercial e simulador explicitamente ilustrativo, sem promessas de faturamento ou rentabilidade.
+- [x] Validar os CTAs, formulário, simulação, SEO e responsividade da nova landing de delivery.
+- [x] Publicar a nova landing de delivery na branch monitor-chopp-on-20260818.
