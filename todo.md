@@ -51,3 +51,4 @@
 - [x] Confirmar na branch remota os arquivos franquia/franquia-form.html e franquia/process-franchise.php antes da entrega.
 - [x] Confirmar o hash remoto do formulário de qualificação e disponibilizar a referência de transferência para a hospedagem.
 - [x] Gerar um ZIP mínimo com franquia-form.html e process-franchise.php para atualização segura da pasta franquia no host.
+- [x] Integrar o formulário de qualificação na branch monitor-chopp-on-20260818 exibida no GitHub Desktop, sem alterar a main.
