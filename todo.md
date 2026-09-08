@@ -32,7 +32,22 @@
 - [x] Separar dependências de interface em chunks de produção para reduzir o pacote principal sinalizado no build.
 - [x] Criar e enviar ao repositório remoto confirmado o commit da atualização do aplicativo do cliente.
 - [x] Diagnosticar e corrigir o erro 403 retornado pelo domínio choppon24h.com.br após a tentativa de publicação.
-- [ ] Mover os arquivos de configuração remanescentes da raiz pública da HostGator para a pasta privada do projeto.
+- [ ] Verificar no cPanel/HostGator o Document Root ativo e salvar uma listagem explícita dos arquivos presentes na raiz pública.
+- [ ] Mover ou remover comprovadamente da raiz pública todos os arquivos de configuração remanescentes, preservando backup fora da webroot.
+- [x] Validar por HTTP que arquivos de configuração como package.json, pnpm-lock.yaml e vite.config.ts retornam 403 ou 404.
+- [x] Verificar e sincronizar novamente a branch redesign-client-app com o servidor remoto indicado.
 - [x] Confirmar e atualizar a branch remota do redesign para clonagem no GitHub Desktop.
 - [x] Sincronizar a documentação de recuperação da hospedagem e o checklist atualizado na branch remota do redesign.
 - [x] Confirmar o hash remoto final e informar a referência de clonagem no GitHub Desktop.
+- [x] Gerar pacote estático do redesign compatível com a raiz pública da HostGator, sem código de servidor exposto.
+- [x] Documentar o procedimento de publicação e manutenção para impedir que o domínio volte a servir a pasta chopp legada.
+- [x] Sincronizar o gerador de pacote estático e o prompt de publicação na branch remota do redesign.
+- [x] Localizar a página estática de formulário de franquia no repositório publicado e preservar seu endpoint de recebimento.
+- [x] Criar formulário em abas com identificação pessoal, perfil de investidor, ponto comercial, condições de franquia e modelos Chopp ON.
+- [x] Implementar validação de campos obrigatórios, CPF, consentimento LGPD e mensagem de avaliação de compatibilidade comercial.
+- [x] Apresentar os quatro modelos de negócio e seus investimentos iniciais informados em uma etapa orientada do formulário.
+- [x] Validar no navegador o formulário em desktop e mobile, percorrendo as cinco etapas, a seleção de modelo e o envio sintético.
+- [x] Criar commit e enviar o novo formulário para a branch remota de revisão no GitHub.
+- [x] Confirmar na branch remota os arquivos franquia/franquia-form.html e franquia/process-franchise.php antes da entrega.
+- [x] Confirmar o hash remoto do formulário de qualificação e disponibilizar a referência de transferência para a hospedagem.
+- [x] Gerar um ZIP mínimo com franquia-form.html e process-franchise.php para atualização segura da pasta franquia no host.
