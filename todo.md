@@ -32,9 +32,9 @@
 - [x] Separar dependências de interface em chunks de produção para reduzir o pacote principal sinalizado no build.
 - [x] Criar e enviar ao repositório remoto confirmado o commit da atualização do aplicativo do cliente.
 - [x] Diagnosticar e corrigir o erro 403 retornado pelo domínio choppon24h.com.br após a tentativa de publicação.
-- [ ] Verificar no cPanel/HostGator o Document Root ativo e listar os arquivos ainda presentes na raiz pública.
-- [ ] Mover ou remover da raiz pública os arquivos de configuração remanescentes do projeto, preservando backup fora da área pública.
-- [ ] Validar por HTTP que arquivos de configuração como package.json, pnpm-lock.yaml e vite.config.ts retornam 403 ou 404.
+- [ ] Verificar no cPanel/HostGator o Document Root ativo e salvar uma listagem explícita dos arquivos presentes na raiz pública.
+- [ ] Mover ou remover comprovadamente da raiz pública todos os arquivos de configuração remanescentes, preservando backup fora da webroot.
+- [x] Validar por HTTP que arquivos de configuração como package.json, pnpm-lock.yaml e vite.config.ts retornam 403 ou 404.
 - [x] Verificar e sincronizar novamente a branch redesign-client-app com o servidor remoto indicado.
 - [x] Confirmar e atualizar a branch remota do redesign para clonagem no GitHub Desktop.
 - [x] Sincronizar a documentação de recuperação da hospedagem e o checklist atualizado na branch remota do redesign.
@@ -49,3 +49,5 @@
 - [x] Validar no navegador o formulário em desktop e mobile, percorrendo as cinco etapas, a seleção de modelo e o envio sintético.
 - [x] Criar commit e enviar o novo formulário para a branch remota de revisão no GitHub.
 - [x] Confirmar na branch remota os arquivos franquia/franquia-form.html e franquia/process-franchise.php antes da entrega.
+- [x] Confirmar o hash remoto do formulário de qualificação e disponibilizar a referência de transferência para a hospedagem.
+- [x] Gerar um ZIP mínimo com franquia-form.html e process-franchise.php para atualização segura da pasta franquia no host.
