@@ -54,3 +54,4 @@
 - [x] Integrar o formulário de qualificação na branch monitor-chopp-on-20260818 exibida no GitHub Desktop, sem alterar a main.
 - [x] Criar uma assinatura visual de logo Chopp ON para o cabeçalho do formulário de franquias.
 - [x] Aplicar a nova assinatura no formulário, validar sua leitura e sincronizar a atualização na branch monitor.
+- [x] Substituir a assinatura do formulário pela mesma logo usada no site público choppon24h.com.br e sincronizar a correção na branch monitor.
