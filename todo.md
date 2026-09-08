@@ -52,3 +52,5 @@
 - [x] Confirmar o hash remoto do formulário de qualificação e disponibilizar a referência de transferência para a hospedagem.
 - [x] Gerar um ZIP mínimo com franquia-form.html e process-franchise.php para atualização segura da pasta franquia no host.
 - [x] Integrar o formulário de qualificação na branch monitor-chopp-on-20260818 exibida no GitHub Desktop, sem alterar a main.
+- [x] Criar uma assinatura visual de logo Chopp ON para o cabeçalho do formulário de franquias.
+- [x] Aplicar a nova assinatura no formulário, validar sua leitura e sincronizar a atualização na branch monitor.
