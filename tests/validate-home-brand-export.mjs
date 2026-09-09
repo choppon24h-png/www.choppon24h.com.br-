@@ -20,7 +20,7 @@ for (const term of [
   if (!page.includes(term)) throw new Error(`Conteúdo institucional ausente: ${term}`);
 }
 
-for (const asset of ["assets/index-CxEscHZ2.js", "assets/index-DNl-VaVP.css", "assets/vendor-icons-C4PosQkb.js"]) {
+for (const asset of ["assets/index-DHa_KiLa.js", "assets/index-DNl-VaVP.css", "assets/vendor-icons-C4PosQkb.js"]) {
   if (!page.includes(`/${asset}`)) throw new Error(`Asset não referenciado pela home: ${asset}`);
   if (!existsSync(new URL(`../${asset}`, import.meta.url))) throw new Error(`Asset ausente da publicação estática: ${asset}`);
 }

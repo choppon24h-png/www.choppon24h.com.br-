@@ -66,3 +66,5 @@
 - [x] Aplicar a comunicação juridicamente segura do pedido de registro de marca no INPI, sem tratar marca como patente ou registro concedido.
 - [x] Validar os CTAs, os quatro modelos, a responsividade e a preservação da navegação da página inicial.
 - [x] Publicar a atualização da seção A Marca na branch monitor-chopp-on-20260818.
+- [x] Direcionar o botão principal Quero empreender da Home ao formulário público de qualificação de franquias.
+- [x] Validar o link do CTA na versão estática e publicar a correção na branch monitor-chopp-on-20260818.
