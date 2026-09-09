@@ -40,7 +40,7 @@ export function PublicHeader() {
           ))}
         </nav>
         <div className="hidden lg:block">
-          <Link href="/franquia#cadastro" className="inline-flex items-center gap-2 rounded-full bg-[#ff7a00] px-5 py-3 text-sm font-extrabold text-[#181818] transition-transform duration-150 hover:bg-[#ff922d] active:scale-[.97]">
+          <Link href="/franquia/franquia-form.html" className="inline-flex items-center gap-2 rounded-full bg-[#ff7a00] px-5 py-3 text-sm font-extrabold text-[#181818] transition-transform duration-150 hover:bg-[#ff922d] active:scale-[.97]">
             Quero empreender <ArrowUpRight className="size-4" aria-hidden="true" />
           </Link>
         </div>
@@ -52,7 +52,7 @@ export function PublicHeader() {
         <div className="border-t border-white/10 bg-[#161616] px-4 py-5 lg:hidden">
           <nav className="container flex flex-col gap-2" aria-label="Navegação móvel">
             {navItems.map(item => <a key={item.href} href={item.href} onClick={() => setIsOpen(false)} className="rounded-xl px-4 py-3 font-bold text-white/80 hover:bg-white/5 hover:text-[#ff7a00]">{item.label}</a>)}
-            <Link href="/franquia#cadastro" onClick={() => setIsOpen(false)} className="mt-2 rounded-xl bg-[#ff7a00] px-4 py-3 text-center font-extrabold text-[#171717]">Quero empreender</Link>
+            <Link href="/franquia/franquia-form.html" onClick={() => setIsOpen(false)} className="mt-2 rounded-xl bg-[#ff7a00] px-4 py-3 text-center font-extrabold text-[#171717]">Quero empreender</Link>
           </nav>
         </div>
       )}

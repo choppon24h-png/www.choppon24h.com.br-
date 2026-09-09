@@ -63,3 +63,5 @@
 - [x] Aplicar linguagem juridicamente segura ao pedido de registro de marca no INPI, sem alegar concessão ou patente.
 - [x] Validar os CTAs, modelos de negócio, responsividade e renderização estática da seção A Marca.
 - [x] Publicar a atualização institucional na branch redesign-client-app e preparar a versão estática para FileZilla.
+- [x] Direcionar o CTA Quero empreender do cabeçalho ao formulário público de qualificação de franquias.
+- [x] Validar o CTA em desktop e mobile, exportar a Home estática e publicar as referências atualizadas.
