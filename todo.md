@@ -68,3 +68,6 @@
 - [x] Publicar a atualização da seção A Marca na branch monitor-chopp-on-20260818.
 - [x] Direcionar o botão principal Quero empreender da Home ao formulário público de qualificação de franquias.
 - [x] Validar o link do CTA na versão estática e publicar a correção na branch monitor-chopp-on-20260818.
+- [x] Criar landing estática para o link da bio do Instagram com seleção de CHOPPON STATION e CHOPPON SMART COMPACT.
+- [x] Encaminhar cada seleção ao formulário de qualificação com o modelo pré-selecionado.
+- [x] Validar a landing do Instagram em smartphone e publicar os arquivos na branch monitor-chopp-on-20260818.
